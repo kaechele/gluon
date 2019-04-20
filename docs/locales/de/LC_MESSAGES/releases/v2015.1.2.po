@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-releasesv201512/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 5f89daf684034295beb58189b4ff6534
@@ -25,17 +28,17 @@ msgstr ""
 # fe273d915ee64f2b82ae019a641d1977
 #: ../../releases/v2015.1.2.rst:5
 msgid "Added hardware support"
-msgstr ""
+msgstr "Neu hinzugefügte Hardwareunterstützung"
 
 # bf280b0bd6a84afc82bfee54f32fb9af
 #: ../../releases/v2015.1.2.rst:7
 msgid "ar71xx-generic"
-msgstr ""
+msgstr "ar71xx-generic"
 
 # 0d223a0631784680a65fa8a79e0bfef6
 #: ../../releases/v2015.1.2.rst:9
 msgid "TP-Link"
-msgstr ""
+msgstr "TP-Link"
 
 # c61045965687444fbcb8afac8ccfbcb8
 #: ../../releases/v2015.1.2.rst:11
@@ -60,7 +63,7 @@ msgstr ""
 # 3470009d99bd4d31be6a32fed19c36e8
 #: ../../releases/v2015.1.2.rst:17
 msgid "New features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 # 2f65de79c5db499b80d621de0917011f
 #: ../../releases/v2015.1.2.rst:19
@@ -78,7 +81,7 @@ msgstr ""
 # 6e95eb845e054892b4d3adf971196207
 #: ../../releases/v2015.1.2.rst:24
 msgid "Bugfixes"
-msgstr ""
+msgstr "Fehlerbehebungen"
 
 # e9c3707446d44576ba31e7d5c8c9baea
 #: ../../releases/v2015.1.2.rst:26
@@ -155,4 +158,3 @@ msgstr ""
 #: ../../releases/v2015.1.2.rst:41
 msgid "See https://github.com/freifunk-gluon/gluon/issues/435"
 msgstr ""
-
