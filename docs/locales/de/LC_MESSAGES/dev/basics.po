@@ -3,44 +3,47 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-devbasics/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 986f5abfc87145ac9d43b51026e14109
 #: ../../dev/basics.rst:2
 msgid "Development Basics"
-msgstr ""
+msgstr "Entwicklergrundlagen"
 
 # b4903c7d9333469c9c0aeb2680dadc6a
 #: ../../dev/basics.rst:4
 msgid "Gluon's source is kept in `git repositories`_ at GitHub."
-msgstr ""
+msgstr "Die Gluon Quellen werden in `git repositories`_ bei GitHub verwaltet."
 
 # d142c92880f04ea6a98f451dbdd06775
 #: ../../dev/basics.rst:9
 msgid "Bug Tracker"
-msgstr ""
+msgstr "Bug Tracker"
 
 # fd84d6fc728a4fa984b57ac6959603ca
 #: ../../dev/basics.rst:11
 msgid "The `main repo`_ does have issues enabled."
-msgstr ""
+msgstr "Das `main repo`_ bietet keine Möglichkeit Fehler zu melden."
 
 # 349055e4e3224b14bdaf26b0d4457b1c
 #: ../../dev/basics.rst:16
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 # a7ae585b9c5043b0b596bae1bd1911a1
 #: ../../dev/basics.rst:18
@@ -53,7 +56,7 @@ msgstr ""
 # dde0affbe9ba48e8b38422ae6c60fb99
 #: ../../dev/basics.rst:28
 msgid "Working with repositories"
-msgstr ""
+msgstr "Die Arbeit mit Repositories"
 
 # decd9b7d4e854a8f8a2f40717f053973
 #: ../../dev/basics.rst:30
@@ -61,6 +64,9 @@ msgid ""
 "To update the repositories used by Gluon, just adjust the commit IDs in "
 "`modules` and rerun"
 msgstr ""
+"Um die von Gluon verwendeten Repositories zu aktualisieren können die Commit-"
+"IDs in der Datei `modules` angepasst werden und der Befehl erneut ausgeführt "
+"werden"
 
 # ed7fc6ca791844d9a4acfc3e48c6ead3
 #: ../../dev/basics.rst:37
@@ -142,4 +148,3 @@ msgstr ""
 #: ../../dev/basics.rst:69
 msgid "trailing whitespaces must be eliminated"
 msgstr ""
-
