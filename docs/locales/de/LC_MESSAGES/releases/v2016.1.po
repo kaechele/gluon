@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-releasesv20161/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 9f5f68c8f343490fb44e04db22318203
@@ -25,27 +28,27 @@ msgstr ""
 # 513e3e5e231e4cd7832e157f892812f1
 #: ../../releases/v2016.1.rst:5
 msgid "Added hardware support"
-msgstr ""
+msgstr "Neu hinzugefügte Hardwareunterstützung"
 
 # 157a7c7385ff4efd9ef207dcca302be8
 #: ../../releases/v2016.1.rst:8
 msgid "ar71xx-generic"
-msgstr ""
+msgstr "ar71xx-generic"
 
 # 52e5771a88d3422dbd88e59e3a2e9a65
 #: ../../releases/v2016.1.rst:10
 msgid "Buffalo"
-msgstr ""
+msgstr "Buffalo"
 
 # eb79b14368f249f3ac2cf50a90e606a2
 #: ../../releases/v2016.1.rst:12
 msgid "WZR-HP-G300NH"
-msgstr ""
+msgstr "WZR-HP-G300NH"
 
 # e2ec2d7091d34c6a932a20e61de69e58
 #: ../../releases/v2016.1.rst:14
 msgid "D-Link"
-msgstr ""
+msgstr "D-Link"
 
 # ed8fb12ea4db4982b601b598bfee8cc1
 #: ../../releases/v2016.1.rst:16
@@ -55,7 +58,7 @@ msgstr ""
 # cc3bb0ca9be744b1ae17e91a20b9ce22
 #: ../../releases/v2016.1.rst:18
 msgid "TP-Link"
-msgstr ""
+msgstr "TP-Link"
 
 # 21b3a220635f46c29c87fd3b423e0eba
 #: ../../releases/v2016.1.rst:20
@@ -105,7 +108,7 @@ msgstr ""
 # 0da655ff2f3b44d98bc2df3a014fcb12
 #: ../../releases/v2016.1.rst:30
 msgid "Ubiquiti"
-msgstr ""
+msgstr "Ubiquiti"
 
 # 4d2477954d464c95a0b83581d10bc78e
 #: ../../releases/v2016.1.rst:32
@@ -120,22 +123,22 @@ msgstr ""
 # 5d351e90e9b3429e9c9c64a2f8751bfd
 #: ../../releases/v2016.1.rst:34
 msgid "UniFi AP Outdoor+"
-msgstr ""
+msgstr "UniFi AP Outdoor+"
 
 # 45e079e0479043bd9bd922456d6c3adc
 #: ../../releases/v2016.1.rst:36
 msgid "Western Digital"
-msgstr ""
+msgstr "Western Digital"
 
 # 4e7d9820dfa6423b9089ed9606f48338
 #: ../../releases/v2016.1.rst:38
 msgid "My Net N600"
-msgstr ""
+msgstr "My Net N600"
 
 # d797818227344d408d593bc2b548b23b
 #: ../../releases/v2016.1.rst:39
 msgid "My Net N750"
-msgstr ""
+msgstr "My Net N750"
 
 # 9190c63aadf04cb39ff5df6f3cacff56
 #: ../../releases/v2016.1.rst:42
@@ -150,7 +153,7 @@ msgstr ""
 # cd03070dcf324bdebcecc8204af705a1
 #: ../../releases/v2016.1.rst:47
 msgid "x86-64"
-msgstr ""
+msgstr "x86-64"
 
 # 77d8f00e4daf4d5ea3ec03907d091045
 #: ../../releases/v2016.1.rst:49
@@ -162,7 +165,7 @@ msgstr ""
 # d393317806a245e3a4488f0f6c5a1286
 #: ../../releases/v2016.1.rst:52
 msgid "New features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 # f897832b2a7444b2ad2f034c4b7c74a9
 #: ../../releases/v2016.1.rst:55
@@ -257,7 +260,7 @@ msgstr ""
 # d833634ef9344034a454cf73907bf876
 #: ../../releases/v2016.1.rst:96
 msgid "Bugfixes"
-msgstr ""
+msgstr "Fehlerbehebungen"
 
 # 84a47ce92e71446fb52c7d488d1dd04e
 #: ../../releases/v2016.1.rst:98
@@ -584,4 +587,3 @@ msgid ""
 "The current API is inconsistent and will be replaced in the next release."
 " The old API will still be supported for a while."
 msgstr ""
-
