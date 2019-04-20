@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-releasesv201615/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # cbec2b4ada6c4708a1d54578fb8e1202
@@ -25,27 +28,27 @@ msgstr ""
 # 5d617b3b525b409ebc19e46da2666ebb
 #: ../../releases/v2016.1.5.rst:5
 msgid "Added hardware support"
-msgstr ""
+msgstr "Neu hinzugefügte Hardwareunterstützung"
 
 # c97f0f55d1994d31be4d3a1b3ce2ce96
 #: ../../releases/v2016.1.5.rst:8
 msgid "ar71xx-generic"
-msgstr ""
+msgstr "ar71xx-generic"
 
 # 068af3606d7b46309e95a5991dd53a31
 #: ../../releases/v2016.1.5.rst:10
 msgid "OpenMesh"
-msgstr ""
+msgstr "OpenMesh"
 
 # 55b19b792efa4b389fa02fdf4467f2c5
 #: ../../releases/v2016.1.5.rst:12
 msgid "MR600 (v1, v2)"
-msgstr ""
+msgstr "MR600 (v1, v2)"
 
 # f9fe0d32b9084aa9835eb0d1695d8211
 #: ../../releases/v2016.1.5.rst:13
 msgid "MR900 (v1, v2)"
-msgstr ""
+msgstr "MR900 (v1, v2)"
 
 # 3c6ef9259889467b93da3b48cc260209
 #: ../../releases/v2016.1.5.rst:14
@@ -60,22 +63,22 @@ msgstr ""
 # ecbd5ae3dcbf44238011f6af7ca7ee40
 #: ../../releases/v2016.1.5.rst:16
 msgid "OM2P-LC"
-msgstr ""
+msgstr "OM2P-LC"
 
 # 4e98213bebc24adaaacf27f213255484
 #: ../../releases/v2016.1.5.rst:17
 msgid "OM5P"
-msgstr ""
+msgstr "OM5P"
 
 # 2f7c22052d6c46d4840e5c25c357ba2c
 #: ../../releases/v2016.1.5.rst:18
 msgid "OM5P-AN"
-msgstr ""
+msgstr "OM5P-AN"
 
 # 54c6fa42c5ee4b82b833e39ec1c85c17
 #: ../../releases/v2016.1.5.rst:20
 msgid "Ubiquiti"
-msgstr ""
+msgstr "Ubiquiti"
 
 # 5970557b22c94d2c805669c23427a634
 #: ../../releases/v2016.1.5.rst:22
@@ -95,7 +98,7 @@ msgstr ""
 # 8f33ab4f770b4c9f91f19a4c02aafc10
 #: ../../releases/v2016.1.5.rst:29
 msgid "Bugfixes"
-msgstr ""
+msgstr "Fehlerbehebungen"
 
 # 54a289dcf71348d69e9b1ad941b42d65
 #: ../../releases/v2016.1.5.rst:31
@@ -222,4 +225,3 @@ msgid ""
 "The current API is inconsistent and will be replaced eventually. The old "
 "API will still be supported for a while."
 msgstr ""
-
