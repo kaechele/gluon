@@ -3,24 +3,27 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-packagegluon-config-mode-domain-select/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 75a5a2b96ffe4a6b851472b218e630f5
 #: ../../package/gluon-config-mode-domain-select.rst:2
 msgid "gluon-config-mode-domain-select"
-msgstr ""
+msgstr "gluon-config-mode-domain-select"
 
 # 805551da3ace44ccb5d286cea3a4af8e
 #: ../../package/gluon-config-mode-domain-select.rst:3
@@ -30,6 +33,10 @@ msgid ""
 "upgrade scripts in ``/lib/gluon/upgrade/`` are triggered to update the "
 "nodes configuration."
 msgstr ""
+"Dieses Paket stellt eine Dropdown-Liste im Konfigmodus bereit, mit der es "
+"möglich ist die gewünschte Domäne des Knotens zu wählen. Wenn die Auswahl "
+"geändert wird sorgen die Skripte in ``/lib/gluon/upgrade/`` für eine "
+"Anpassung der Konfiguration auf die gewünschte Domäne."
 
 # 468344b155764385a1639e48256e90d3
 #: ../../package/gluon-config-mode-domain-select.rst:7
@@ -37,29 +44,30 @@ msgid ""
 "Hiding domains could be useful for default or testing domains, which "
 "should not be accidentally selected by a node operator."
 msgstr ""
+"Das Ausblenden von Domänen ist zum Beispiel nützlich um zu verhindern, dass "
+"ein Knotenbetreiber versehentlich eine Test-Domäne auswählt."
 
 # e9b7ba09f1e94eb1b7ce53e42cc9ca80
 #: ../../package/gluon-config-mode-domain-select.rst:11
 msgid "domains/\\*.conf"
-msgstr ""
+msgstr "domains/\\*.conf"
 
 # 40027842e3214849a4d0ccee570f85e5
 #: ../../package/gluon-config-mode-domain-select.rst:15
 msgid "hide_domain \\: optional (defaults to false)"
-msgstr ""
+msgstr "hide_domain \\: optional (standardmäßig auf false)"
 
 # 88fdd34cf82840c981b7ef8a7315d6d1
 #: ../../package/gluon-config-mode-domain-select.rst:14
 msgid "``false`` shows this domain in drop-down list"
-msgstr ""
+msgstr "``false`` zeigt die Domäne in der Liste"
 
 # 173604431307405ba3f05da73af12a24
 #: ../../package/gluon-config-mode-domain-select.rst:15
 msgid "``true`` hides this domain"
-msgstr ""
+msgstr "``true`` versteckt die Domäne in der Liste"
 
 # 728e97fdbefa46cc83f7bcaf59e33701
 #: ../../package/gluon-config-mode-domain-select.rst:17
 msgid "Example::"
-msgstr ""
-
+msgstr "Beispiel::"
