@@ -3,99 +3,102 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:37-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-releasesv201821/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 3a0b270375fb40f78915133f9d05f758
 #: ../../releases/v2018.2.1.rst:2
 msgid "Gluon 2018.2.1"
-msgstr ""
+msgstr "Gluon 2018.2.1"
 
 # 213cddd842364822be0bace664c99170
 #: ../../releases/v2018.2.1.rst:5
 msgid "Added hardware support"
-msgstr ""
+msgstr "Neu hinzugefügte Hardwareunterstützung"
 
 # 1c2633da4abe47a3a4d42aa9c6776083
 #: ../../releases/v2018.2.1.rst:8
 msgid "ar71xx-generic"
-msgstr ""
+msgstr "ar71xx-generic"
 
 # 0d7bef9b0e1145ab9e73a31fba57e53d
 #: ../../releases/v2018.2.1.rst:10
 msgid "AVM"
-msgstr ""
+msgstr "AVM"
 
 # ab7413b0285a4a6793bbe4488d9957b8
 #: ../../releases/v2018.2.1.rst:12
 msgid "Fritz!WLAN Repeater 300E"
-msgstr ""
+msgstr "Fritz!WLAN Repeater 300E"
 
 # cff26467ea3b4fd38b607ef3f9d3580c
 #: ../../releases/v2018.2.1.rst:15
 msgid "ramips-mt7620"
-msgstr ""
+msgstr "ramips-mt7620"
 
 # 198db14809224f35bcb687fbf90aedc8
 #: ../../releases/v2018.2.1.rst:17
 msgid "Nexx"
-msgstr ""
+msgstr "Nexx"
 
 # 39bc5b37ae1249bba14af3167d71c6d2
 #: ../../releases/v2018.2.1.rst:19
 msgid "WT3020AD/F/H [#noibss]_"
-msgstr ""
+msgstr "WT3020AD/F/H [#noibss]_"
 
 # 1520f2c8ca044bc986845c5a958ff066
 #: ../../releases/v2018.2.1.rst:22
 msgid "ramips-mt76x8"
-msgstr ""
+msgstr "ramips-mt76x8"
 
 # b4b06cd7dab64eedbed7bffdc0cdfac1
 #: ../../releases/v2018.2.1.rst:24
 msgid "Gl.iNet"
-msgstr ""
+msgstr "Gl.iNet"
 
 # 5401276871eb4bd8bdeafcc2af77218a
 #: ../../releases/v2018.2.1.rst:26
 msgid "MT300N (v2) [#noibss]_"
-msgstr ""
+msgstr "MT300N (v2) [#noibss]_"
 
 # 8df7a5e20ee84affbc796b6894189892
 #: ../../releases/v2018.2.1.rst:28
 msgid "Netgear"
-msgstr ""
+msgstr "Netgear"
 
 # f115e6ead38e4fecab5da881409ad571
 #: ../../releases/v2018.2.1.rst:30
 msgid "R6120 [#noibss]_"
-msgstr ""
+msgstr "R6120 [#noibss]_"
 
 # bc393e4f30354780bc617baddd2b0fb0
 #: ../../releases/v2018.2.1.rst:32
 msgid "TP-Link"
-msgstr ""
+msgstr "TP-Link"
 
 # 7b6b349e52ef46a293673c8230bdafec
 #: ../../releases/v2018.2.1.rst:34
 msgid "Archer C50 (v3, v4) [#noibss]_"
-msgstr ""
+msgstr "Archer C50 (v3, v4) [#noibss]_"
 
 # f23b8084290c44049da68c3682ed6d0b
 #: ../../releases/v2018.2.1.rst:35
 msgid "TL-WR841N (v13) [#noibss]_"
-msgstr ""
+msgstr "TL-WR841N (v13) [#noibss]_"
 
 # acfeb8514e1248a898cf257e119ce5ff
 #: ../../releases/v2018.2.1.rst:38
@@ -103,11 +106,13 @@ msgid ""
 "Device or target does not support AP+IBSS mode: This device or target "
 "will not be built when *GLUON_WLAN_MESH* is set to ``ibss``."
 msgstr ""
+"Gerät oder Target unterstützt den AP+IBSS Modus nicht: Dieses Gerät oder "
+"Target wird nicht gebaut, wenn *GLUON_WLAN_MESH* auf ``ibss`` gesetzt ist."
 
 # 43eb8400a3704c41be9d3deb049566f3
 #: ../../releases/v2018.2.1.rst:42
 msgid "Bugfixes"
-msgstr ""
+msgstr "Fehlerbehebungen"
 
 # 24ebaee59eb3444eb72a974affde352e
 #: ../../releases/v2018.2.1.rst:44
@@ -216,7 +221,7 @@ msgstr ""
 # 34e489dce35040db880d5844a492a853
 #: ../../releases/v2018.2.1.rst:83
 msgid "New features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 # 0a17d977abdb4aedae5e758b09afa777
 #: ../../releases/v2018.2.1.rst:86
@@ -322,4 +327,3 @@ msgid ""
 "There are still known bugs leading to unreasonably high load that we hope"
 " to solve in future releases."
 msgstr ""
-
