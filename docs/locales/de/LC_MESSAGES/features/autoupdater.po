@@ -3,24 +3,27 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-featuresautoupdater/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 416bfab405e84872bd445b665c49d382
 #: ../../features/autoupdater.rst:2
 msgid "Autoupdater"
-msgstr ""
+msgstr "Autoupdater"
 
 # fbdb92343b554e12b45b3a262677a175
 #: ../../features/autoupdater.rst:4
@@ -28,11 +31,13 @@ msgid ""
 "Gluon contains an automatic update system which can be configured in the "
 "site configuration."
 msgstr ""
+"Gluon enthält ein automatisches Updatesystem, welches in der Site-"
+"Konfiguration angepasst werden kann."
 
 # 9ad6700c60a245a4819ceeda5103357e
 #: ../../features/autoupdater.rst:7
 msgid "Building Images"
-msgstr ""
+msgstr "Images bauen"
 
 # 8475ae965cd6483fa467f7564fcac42b
 #: ../../features/autoupdater.rst:9
@@ -42,6 +47,11 @@ msgid ""
 "setting the variable GLUON_BRANCH when building to override the default "
 "branch set in the site configuration."
 msgstr ""
+"Standardmäßig ist der Autoupdater deaktiviert, da es bei der Entwicklung "
+"ungünstig ist, wenn unerwartet Updates installiert werden. Er kann jedoch "
+"durch das Setzen der Variable GLUON_BRANCH während des Bauprozesses "
+"aktiviert werden um den in der Site-Konfiguration vorgegebenen Wert zu "
+"überschreiben."
 
 # 99f7c89756264f44b7303ac220de8cec
 #: ../../features/autoupdater.rst:13
@@ -52,6 +62,11 @@ msgid ""
 "defined by setting ``GLUON_PRIORITY`` on the command line or in "
 "``site.mk``."
 msgstr ""
+"Eine Manifest-Datei für den Updater kann durch `make manifest` generiert "
+"werden. Ein Signierungsskript (verwendet ``ecdsautils``) ist im Ordner "
+"`contrib` zu finden. Bei der Erzeugung kann die ``PRIORITY``-Einstellung "
+"durch das Setzen der Variable ``GLUON_PRIORITY`` auf der Kommandozeile oder "
+"in der ``site.mk`` definiert werden."
 
 # 5d7bc46f6e36421e97e44a980cca2f6b
 #: ../../features/autoupdater.rst:17
@@ -65,11 +80,20 @@ msgid ""
 "its run between 4am and 5am, except when the whole ``GLUON_PRIORITY`` "
 "days and another 24 hours have passed."
 msgstr ""
+"``GLUON_PRIORITY`` definiert die maximale Anzahl an Tagen, die zwischen "
+"Veröffentlichung und der Installation eines Updates vergehen dürfen. Die "
+"Updatewahrscheinlichkeit (probability) hat zum im Manifest in der Variable "
+"DATE definierten Zeitpunk den Wert 0 und steigt dann langsam auf 1 bis "
+"``GLUON_PRIORITY`` Tage verstrichen sind. Der Autoupdater prüft stündlich ("
+"zu einer zufälligen Minute) auf neue Updates, installiert diese aber für "
+"gewöhnlich nur in der Zeit zwischen 4 Uhr und 5 Uhr morgens. Wurde "
+"``GLUON_PRIORITY`` bereits um mindestens 24 Stunden überschritten wird das "
+"Update unverzüglich installiert."
 
 # c8844cf9449e4f76a917cc749c2e6f6f
 #: ../../features/autoupdater.rst:23
 msgid "``GLUON_PRIORITY`` may be an integer or a decimal fraction."
-msgstr ""
+msgstr "``GLUON_PRIORITY`` Kann eine Ganzzahl oder Dezimalzahl sein."
 
 # 2453d23b8cc047d5a61f9177dda6dd6e
 #: ../../features/autoupdater.rst:25
@@ -79,39 +103,45 @@ msgid ""
 "``GLUON_RELEASE`` to ``make manifest``, as otherwise the generated "
 "manifest will be incomplete."
 msgstr ""
+"Wenn ``GLUON_RELEASE`` explizit beim ``make`` gesetzt ist oder dynamisch "
+"durch die Angabe in der``site.mk`` generiert wird, muss zwingend derselbe "
+"``GLUON_RELEASE`` an ``make manifest`` übergeben werden, da sonst das "
+"generierte Manifest unvollständig bleibt."
 
 # d3c4cc259e7d4a6baa0b71a14177f9f0
 #: ../../features/autoupdater.rst:31
 msgid "Automated nightly builds"
-msgstr ""
+msgstr "Automatisierte nächtliche Builds"
 
 # 7fee7acecd1649aa83dc88509a694dd5
 #: ../../features/autoupdater.rst:33
 msgid "A fully automated nightly build could use the following commands:"
 msgstr ""
+"Ein vollständig automatisierter, nächtlicher Build könnte die folgenden "
+"Kommandos verwenden:"
 
 # d37942c1c2664fd2b1c2df1bddc5b816
 #: ../../features/autoupdater.rst:51
 msgid "Infrastructure"
-msgstr ""
+msgstr "Infrastruktur"
 
 # 072e060208724cdeba231823fc59be1a
 #: ../../features/autoupdater.rst:53
 msgid "We suggest to have following directory tree accessible via http:"
 msgstr ""
+"Es wird empfohlen die folgende Verzeichnisstruktur per HTTP bereitzuhalten:"
 
 # 0fd0e5dbd22549bc85dd6d96b77b3e6f
 #: ../../features/autoupdater.rst:68
 msgid "The server must be available via IPv6."
-msgstr ""
+msgstr "Der Server muss per IPv6 erreichbar sein."
 
 # a59405d383b443388013a4e4bcc8e8ba
 #: ../../features/autoupdater.rst:71
 msgid "Command Line"
-msgstr ""
+msgstr "Kommandozeile"
 
 # 4be364819af84e899d0ebf06358b82fe
 #: ../../features/autoupdater.rst:73
 msgid "These commands can be used on a node:"
-msgstr ""
-
+msgstr "Diese Befehle können auf Knoten verwendet werden:"
