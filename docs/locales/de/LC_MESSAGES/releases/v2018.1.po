@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-releasesv20181/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 0f84d98473484defb82bf290131dc97c
@@ -46,12 +49,12 @@ msgstr ""
 # 8fc8d910fce14b0d8d83b04431ce4e38
 #: ../../releases/v2018.1.rst:15
 msgid "Added hardware support"
-msgstr ""
+msgstr "Neu hinzugefügte Hardwareunterstützung"
 
 # 3116e1a4c41d4480b73b48ea348e7157
 #: ../../releases/v2018.1.rst:18
 msgid "ar71xx-generic"
-msgstr ""
+msgstr "ar71xx-generic"
 
 # 3237fa1cb374429894c5238a89402394
 #: ../../releases/v2018.1.rst:20
@@ -61,12 +64,12 @@ msgstr ""
 # 0ea33c2ddca7415a8baea4bb7872dc9f
 #: ../../releases/v2018.1.rst:22
 msgid "AP121F"
-msgstr ""
+msgstr "AP121F"
 
 # 78927776904f43c4b46ab4042af1e950
 #: ../../releases/v2018.1.rst:24
 msgid "AVM"
-msgstr ""
+msgstr "AVM"
 
 # 17e4ec84d0144752a3e9ff38c527ff2f
 #: ../../releases/v2018.1.rst:26
@@ -76,17 +79,17 @@ msgstr ""
 # 1392e110290543a89456fa101f6b21b9
 #: ../../releases/v2018.1.rst:28
 msgid "OpenMesh"
-msgstr ""
+msgstr "OpenMesh"
 
 # 5fd00e6cf0ad42b68b0b2fc54475aadb
 #: ../../releases/v2018.1.rst:30
 msgid "A40"
-msgstr ""
+msgstr "A40"
 
 # 09ff0a5c7956464697aedb99da2a2503
 #: ../../releases/v2018.1.rst:31
 msgid "A60"
-msgstr ""
+msgstr "A60"
 
 # 97f5346c856545ac94ec628b3d561d25
 #: ../../releases/v2018.1.rst:32
@@ -104,7 +107,7 @@ msgstr ""
 #: ../../releases/v2018.1.rst:35 ../../releases/v2018.1.rst:50
 #: ../../releases/v2018.1.rst:57
 msgid "TP-Link"
-msgstr ""
+msgstr "TP-Link"
 
 # ec7771f67f754f369dbc1c9f2d7935be
 #: ../../releases/v2018.1.rst:37
@@ -119,12 +122,12 @@ msgstr ""
 # 18655e39cec644ed90c28aa2868bb3f7
 #: ../../releases/v2018.1.rst:41
 msgid "ar71xx-nand"
-msgstr ""
+msgstr "ar71xx-nand"
 
 # 1dd8905ee45e4b85a3185e076034f4f2
 #: ../../releases/v2018.1.rst:43
 msgid "ZyXEL"
-msgstr ""
+msgstr "ZyXEL"
 
 # b66f27bcb84e43ab846bac12f36a8f6d
 #: ../../releases/v2018.1.rst:45
@@ -134,7 +137,7 @@ msgstr ""
 # de4b64ad552e48d594150df3f5e7753b
 #: ../../releases/v2018.1.rst:48
 msgid "ar71xx-tiny"
-msgstr ""
+msgstr "ar71xx-tiny"
 
 # 675cf205e5194e4f869d5403dd44af40
 #: ../../releases/v2018.1.rst:52
@@ -159,7 +162,7 @@ msgstr ""
 # 334fcc602d4a43188c9e3b949f6fe1f1
 #: ../../releases/v2018.1.rst:64
 msgid "GL Innovations"
-msgstr ""
+msgstr "GL Innovations"
 
 # 27104065f8f94ee2a164516ef7a8376e
 #: ../../releases/v2018.1.rst:66
@@ -185,7 +188,7 @@ msgstr ""
 # 06fb2e85eab0496aade181327aebeabc
 #: ../../releases/v2018.1.rst:73 ../../releases/v2018.1.rst:88
 msgid "VoCore"
-msgstr ""
+msgstr "VoCore"
 
 # ab57d9906d3448e0b2e50311855dbd11
 #: ../../releases/v2018.1.rst:75
@@ -210,7 +213,7 @@ msgstr ""
 # 5c2af263471643959ca9a15c354568dd
 #: ../../releases/v2018.1.rst:84
 msgid "D-Link"
-msgstr ""
+msgstr "D-Link"
 
 # 38b0ca4d0044429b8db4db280f839f70
 #: ../../releases/v2018.1.rst:86
@@ -248,11 +251,13 @@ msgid ""
 "Device or target does not support AP+IBSS mode: This device or target "
 "will not be built when *GLUON_WLAN_MESH* is set to ``ibss``."
 msgstr ""
+"Gerät oder Target unterstützt den AP+IBSS Modus nicht: Dieses Gerät oder "
+"Target wird nicht gebaut, wenn *GLUON_WLAN_MESH* auf ``ibss`` gesetzt ist."
 
 # 5d4e091603a544348be8cc711100d2cb
 #: ../../releases/v2018.1.rst:108
 msgid "New features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 # f12b687233a0444ebd2f3b5e397c688f
 #: ../../releases/v2018.1.rst:111
@@ -349,7 +354,7 @@ msgstr ""
 # 582c0e3b352a4885b2b3680cf510cf11
 #: ../../releases/v2018.1.rst:159
 msgid "gluon-ebtables-limit-arp"
-msgstr ""
+msgstr "gluon-ebtables-limit-arp"
 
 # 5ce17a20a5f24a85a70e3668ecb91c18
 #: ../../releases/v2018.1.rst:161
@@ -454,7 +459,7 @@ msgstr ""
 # 5f971ef6490e4c0dafbe2cdd62e3ab7a
 #: ../../releases/v2018.1.rst:213
 msgid "site.conf"
-msgstr ""
+msgstr "site.conf"
 
 # 80550a11356047db830e67e4e891dbcd
 #: ../../releases/v2018.1.rst:215
@@ -822,4 +827,3 @@ msgid ""
 " IPv4 address, but with a node-specific source MAC address. This can make"
 " the next-node IPv4 address unreachable."
 msgstr ""
-
