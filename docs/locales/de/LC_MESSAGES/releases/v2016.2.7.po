@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-releasesv201627/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 228c74f5ac4d48b6b419b1d09e840f2a
@@ -32,7 +35,7 @@ msgstr ""
 # 4f85c771efa44ecc903e40779f194f51
 #: ../../releases/v2016.2.7.rst:8
 msgid "Bugfixes"
-msgstr ""
+msgstr "Fehlerbehebungen"
 
 # e68b058ab7ab40e8875ea9879320ab5c
 #: ../../releases/v2016.2.7.rst:10
@@ -101,4 +104,3 @@ msgid ""
 "The current API is inconsistent and will be replaced eventually. The old "
 "API will still be supported for a while."
 msgstr ""
-
