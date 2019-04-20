@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-releasesv20151/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 2b6500b1c7d24e1195f8a320460332ca
@@ -25,7 +28,7 @@ msgstr ""
 # 298e6f0c47b242778f44ef7bf95b1ad5
 #: ../../releases/v2015.1.rst:5
 msgid "Added hardware support"
-msgstr ""
+msgstr "Neu hinzugefügte Hardwareunterstützung"
 
 # 1c2f52c69dfb4bb2b08ddd274e67ceb7
 #: ../../releases/v2015.1.rst:6
@@ -39,27 +42,27 @@ msgstr ""
 # 77fe5b8c28964f48a04c27adafa2ccd8
 #: ../../releases/v2015.1.rst:12
 msgid "ar71xx-generic"
-msgstr ""
+msgstr "ar71xx-generic"
 
 # f8bf6e48c41b4c28983c89320d100481
 #: ../../releases/v2015.1.rst:14
 msgid "Allnet"
-msgstr ""
+msgstr "Allnet"
 
 # cf4a83dceebc486f96e45954803bb839
 #: ../../releases/v2015.1.rst:16
 msgid "ALL0315N"
-msgstr ""
+msgstr "ALL0315N"
 
 # b2dd781846234d26a0d2ef0ef4026002
 #: ../../releases/v2015.1.rst:18
 msgid "D-Link"
-msgstr ""
+msgstr "D-Link"
 
 # ec2646fea643440e877412f4f945c2c3
 #: ../../releases/v2015.1.rst:20
 msgid "DIR-615 (C1)"
-msgstr ""
+msgstr "DIR-615 (C1)"
 
 # 1da6fc5876bf4851886f5864f51ade06
 #: ../../releases/v2015.1.rst:22
@@ -79,13 +82,13 @@ msgstr ""
 # 97eafa4d073e400da978a115ec2f0b57
 #: ../../releases/v2015.1.rst:27
 msgid "WRT160NL"
-msgstr ""
+msgstr "WRT160NL"
 
 # 0e8279f416e844099641b8fb47052ff5
 # c172063ffd4140efa1dbd12eba15246b
 #: ../../releases/v2015.1.rst:29 ../../releases/v2015.1.rst:54
 msgid "Netgear"
-msgstr ""
+msgstr "Netgear"
 
 # c5c7d3af8fc945f9a6de2a976763f710
 #: ../../releases/v2015.1.rst:31
@@ -95,18 +98,18 @@ msgstr ""
 # 1540e1c3cf574dadb2a8b6922620dcba
 #: ../../releases/v2015.1.rst:32
 msgid "WNDR3800"
-msgstr ""
+msgstr "WNDR3800"
 
 # ed1761074697466280101f0eed887ffe
 #: ../../releases/v2015.1.rst:33
 msgid "WNDRMAC (v2)"
-msgstr ""
+msgstr "WNDRMAC (v2)"
 
 # 2db7ded3ae9d4369b06e8e273275eef3
 # 5ef161d8dace474a9f6d8c36cef5b9a0
 #: ../../releases/v2015.1.rst:35 ../../releases/v2015.1.rst:62
 msgid "TP-Link"
-msgstr ""
+msgstr "TP-Link"
 
 # a8a33091e9ad4b929465677995d09c9f
 #: ../../releases/v2015.1.rst:37
@@ -121,7 +124,7 @@ msgstr ""
 # fb72ed8a5f3f4d35bb7f57f753f514bd
 #: ../../releases/v2015.1.rst:39
 msgid "TL-WA860RE (v1)"
-msgstr ""
+msgstr "TL-WA860RE (v1)"
 
 # bdb0b54e8a854cfdb87972f10659ab31
 #: ../../releases/v2015.1.rst:40
@@ -131,7 +134,7 @@ msgstr ""
 # d3459b547c864db58819cbf96e5f170a
 #: ../../releases/v2015.1.rst:41
 msgid "TL-WR743N/ND (v1, v2)"
-msgstr ""
+msgstr "TL-WR743N/ND (v1, v2)"
 
 # 914c7f6a0ad34a349ad488d3062bc756
 #: ../../releases/v2015.1.rst:42
@@ -141,12 +144,12 @@ msgstr ""
 # 8e27725e3f8947519709eede3343841c
 #: ../../releases/v2015.1.rst:43
 msgid "TL-WR2543N/ND (v1)"
-msgstr ""
+msgstr "TL-WR2543N/ND (v1)"
 
 # 5398de4e8ebb44b9aeb265deb9972255
 #: ../../releases/v2015.1.rst:45
 msgid "Ubiquiti"
-msgstr ""
+msgstr "Ubiquiti"
 
 # daafd61f4bb54e2cac00db89e0f62417
 #: ../../releases/v2015.1.rst:47
@@ -161,48 +164,48 @@ msgstr ""
 # 52bfc376289248c6a8b55e665d92cbd9
 #: ../../releases/v2015.1.rst:49
 msgid "UniFi AP Pro"
-msgstr ""
+msgstr "UniFi AP Pro"
 
 # 3ab6ee20ae054377aa484a5fa2920745
 #: ../../releases/v2015.1.rst:52
 msgid "ar71xx-nand"
-msgstr ""
+msgstr "ar71xx-nand"
 
 # eb32b76bbd7440a09079e653951e9619
 #: ../../releases/v2015.1.rst:56
 msgid "WNDR3700 (v4)"
-msgstr ""
+msgstr "WNDR3700 (v4)"
 
 # 446a0c9073f14a60979a85864e5f300b
 #: ../../releases/v2015.1.rst:57
 msgid "WNDR4300 (v1)"
-msgstr ""
+msgstr "WNDR4300 (v1)"
 
 # a951a939b6a64901ae8c08d3cfcdcbbe
 #: ../../releases/v2015.1.rst:60
 msgid "mpc85xx-generic"
-msgstr ""
+msgstr "mpc85xx-generic"
 
 # a963a3606a33476d8751c10016a0491b
 #: ../../releases/v2015.1.rst:64
 msgid "TL-WDR4900 (v1)"
-msgstr ""
+msgstr "TL-WDR4900 (v1)"
 
 # 700b974b20ca4f3599c2501597ca7c09
 # 770da0de919d49f080debe918d9da870
 #: ../../releases/v2015.1.rst:67 ../../releases/v2015.1.rst:68
 msgid "x86-generic"
-msgstr ""
+msgstr "x86-generic"
 
 # 2f10fff4210a4ff7a13a52bd107de165
 #: ../../releases/v2015.1.rst:69
 msgid "x86-virtualbox"
-msgstr ""
+msgstr "x86-virtualbox"
 
 # af3b95af61e2437c88b54e87fa81f5c7
 #: ../../releases/v2015.1.rst:70
 msgid "x86-vmware"
-msgstr ""
+msgstr "x86-vmware"
 
 # 5b93e4a4d1b1465796306362f8f9e3fe
 #: ../../releases/v2015.1.rst:73
@@ -217,7 +220,7 @@ msgstr ""
 # 55092484cd0445009ec9f12a3e85984c
 #: ../../releases/v2015.1.rst:78
 msgid "New features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 # 1963a3da460d497aa0d2d92d7d912d10
 #: ../../releases/v2015.1.rst:80
@@ -368,7 +371,7 @@ msgstr ""
 # a92a5d397f774164b614f232d1706384
 #: ../../releases/v2015.1.rst:143
 msgid "Bugfixes"
-msgstr ""
+msgstr "Fehlerbehebungen"
 
 # d4603812006d4e0fb391c449f7b76cb7
 #: ../../releases/v2015.1.rst:145
@@ -563,4 +566,3 @@ msgid ""
 "antenna gain) where available, but on many devices the offset is "
 "inaccurate or unavailable."
 msgstr ""
-
