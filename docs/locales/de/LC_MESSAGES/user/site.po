@@ -3,24 +3,27 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-usersite/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # af0d74e91c9640a3af8224b1102bcd77
 #: ../../user/site.rst:2
 msgid "Site configuration"
-msgstr ""
+msgstr "Site Konfiguration"
 
 # 4abf20bb5cfc41568aea18d854619f9d
 #: ../../user/site.rst:4
@@ -30,41 +33,48 @@ msgid ""
 " the build process and runtime. The last is directly included in the make"
 " process of Gluon."
 msgstr ""
+"Eine ``site`` besteht aus den Dateien ``site.conf`` und ``site.mk``. Erstere "
+"definiert Variablen auf Communityebene, die sowohl beim Erstellungsprozess "
+"wie auch beim Betrieb der Firmware verwendet werden. Letztere wird direkt in "
+"den Erstellungsprozess von Gluon eingebunden."
 
 # 7b2e618e2d2a4431a5dfbd26a0d54e95
 #: ../../user/site.rst:10
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguration"
 
 # 4b0bfd84e2da467f9c6738249f524ce3
 #: ../../user/site.rst:12
 msgid "The ``site.conf`` is a lua dictionary with the following defined keys."
 msgstr ""
+"Die ``site.conf`` ist ein lua Dictionary mit den im Folgenden definierten "
+"Schlüsseln."
 
 # 9de7d7c8617d4ed7a01832c8f3fa6885
 #: ../../user/site.rst:15
 msgid "hostname_prefix"
-msgstr ""
+msgstr "hostname_prefix"
 
 # 3ce78b1dbe5d4b2d80f77206f1741918
 #: ../../user/site.rst:15
 msgid "A string which shall prefix the default hostname of a device."
-msgstr ""
+msgstr "Ein String, der dem Hostnamen eines Gerätes vorangestellt wird."
 
 # 33ef1ab63b74442a887ac43f010ce949
 #: ../../user/site.rst:18
+#, fuzzy
 msgid "site_name"
-msgstr ""
+msgstr "site_name"
 
 # b6082ae205a74676b92a81fb5806352f
 #: ../../user/site.rst:18
 msgid "The name of your community."
-msgstr ""
+msgstr "Der Name der Community."
 
 # 92bb0e77029d47fd9abf8d91a9aa46dc
 #: ../../user/site.rst:22
 msgid "site_code"
-msgstr ""
+msgstr "site_code"
 
 # e75c0a3dcd324355aca55e65cb374165
 #: ../../user/site.rst:21
@@ -72,11 +82,13 @@ msgid ""
 "The code of your community. It is good practice to use the TLD of your "
 "community here."
 msgstr ""
+"Der Code der Community. Es wird empfohlen die TLD der Community hier zu "
+"verwenden."
 
 # 7c25513f372f43d6b92f16366492cf12
 #: ../../user/site.rst:33
 msgid "domain_seed"
-msgstr ""
+msgstr "domain_seed"
 
 # 634d7120dde84de287eadecc67777b3c
 #: ../../user/site.rst:25
@@ -86,41 +98,47 @@ msgid ""
 "nodes of one mesh, but should be different for firmware that is not "
 "supposed to mesh with each other."
 msgstr ""
+"32 Byte hexadezimal enkodierte Zufallsdaten. Diese werden als Startwert "
+"verwendet um andere, meshspezifische Zufallswerte zu generieren. Der Wert "
+"muss auf allen Knoten eines Meshes gleich sein, sollte aber auf Knoten, die "
+"nicht miteinander meshen sollen unterschiedlich sein."
 
 # 3f8e46312eb84c2f92aa905bd307d4e3
 #: ../../user/site.rst:30
 msgid "The recommended way to generate a value for a new site is: ::"
 msgstr ""
+"Die empfohlene Vorgehensweise zur Generierung des Wertes für eine neue Site "
+"ist: ::"
 
 # cb6955f03ee74dc59e70b730c75e55a6
 #: ../../user/site.rst:41
 msgid "prefix4 \\: optional"
-msgstr ""
+msgstr "prefix4 \\: optional"
 
 # 93b5b1c74e0d4e15bbaefcab06d76f57
 #: ../../user/site.rst:36
 msgid "The IPv4 Subnet of your community mesh network in CIDR notation, e.g. ::"
-msgstr ""
+msgstr "Das IPv4 Subnetz des Community-Meshnetzwerks in CIDR-Notation, z.B. ::"
 
 # 8132c95c59384721a39eb1507c0e725c
 #: ../../user/site.rst:41
 msgid "Required if ``next_node.ip4`` is set."
-msgstr ""
+msgstr "Erforderlich wenn ``next_node.ip4`` gesetzt ist."
 
 # b1cdd5a4fff64c69a8554275ef4e2618
 #: ../../user/site.rst:47
 msgid "prefix6"
-msgstr ""
+msgstr "prefix6"
 
 # a4c2ab5d83ad4dac8946bcadc06de0a0
 #: ../../user/site.rst:44
 msgid "The IPv6 subnet of your community mesh network, e.g. ::"
-msgstr ""
+msgstr "Das IPv6 Subnetz des Community-Meshnetzwerks, z.B. ::"
 
 # 56017325e16d40f485a3fcbd118144fd
 #: ../../user/site.rst:54
 msgid "node_prefix6"
-msgstr ""
+msgstr "node_prefix6"
 
 # ceb5d8121faa4d00983820e636aecfbd
 #: ../../user/site.rst:50
@@ -128,11 +146,14 @@ msgid ""
 "The ipv6 prefix from which the unique IP-addresses for nodes are selected"
 " in babel-based networks. This may overlap with prefix6. e.g. ::"
 msgstr ""
+"Das IPv6-Prefix von dem die eindeutigen IP-Adressen für Knoten in einem "
+"Babel basierten Netzwerk abgeleitet werden. Dies kann mit prefix6 "
+"überlappen. z.B. ::"
 
 # a4c0a2cad3d34e3f8af113826e3f2a1f
 #: ../../user/site.rst:63
 msgid "node_client_prefix6"
-msgstr ""
+msgstr "node_client_prefix6"
 
 # 57082d987272410eb1e0f5ac0efa406e
 #: ../../user/site.rst:57
@@ -1173,7 +1194,7 @@ msgstr ""
 # f307127a2cf34fe2a72e7a92ac2e3268
 #: ../../user/site.rst:703
 msgid "site.conf"
-msgstr ""
+msgstr "site.conf"
 
 # 6ef19252407e42bc8f2c0e208daa0d3b
 #: ../../user/site.rst:709
@@ -1202,4 +1223,3 @@ msgid ""
 " on the wiki: https://github.com/freifunk-gluon/gluon/wiki/Site-"
 "Configurations"
 msgstr ""
-
