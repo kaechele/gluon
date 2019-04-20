@@ -3,24 +3,27 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-packagegluon-client-bridge/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 361b01c3b7654e2aa8bcd70dca280110
 #: ../../package/gluon-client-bridge.rst:2
 msgid "gluon-client-bridge"
-msgstr ""
+msgstr "gluon-client-bridge"
 
 # 8cc1810621f4404c9b72ab45f1bb04e1
 #: ../../package/gluon-client-bridge.rst:4
@@ -29,19 +32,21 @@ msgid ""
 "will also setup a wireless interface, provided it is configured in "
 "*site.conf*."
 msgstr ""
+"Dieses Paket stellt eine Brücke (*br-client*) für sich verbindende Clients "
+"zur Verfügung. Es nimmt auch die Einrichtung einer WLAN-Schnittstelle vor, "
+"sofern diese in der *site.conf* konfiguriert wurde."
 
 # 09649fc1ffca4114bb1b8af39a4875e6
 #: ../../package/gluon-client-bridge.rst:8
 msgid "site.conf"
-msgstr ""
+msgstr "site.conf"
 
 # fa9207e8899746cfb326918d81536bde
 #: ../../package/gluon-client-bridge.rst:10
 msgid "wifi24.ap.ssid / wifi5.ap.ssid"
-msgstr ""
+msgstr "wifi24.ap.ssid / wifi5.ap.ssid"
 
 # 81d6ab3e046341fba959a45c2af9a7a5
 #: ../../package/gluon-client-bridge.rst:11
 msgid "SSID for the client network"
-msgstr ""
-
+msgstr "SSID für das Clientnetzwerk"
