@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-releasesv201712/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 888d1df180ef402a86e06679831cbaef
@@ -25,7 +28,7 @@ msgstr ""
 # f52ac759e42a4b90afbc9660db23359c
 #: ../../releases/v2017.1.2.rst:5
 msgid "New features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 # a0496d37d1c3401184130af2983158df
 #: ../../releases/v2017.1.2.rst:7
@@ -81,7 +84,7 @@ msgstr ""
 # ae6c1896dc4b4ce08d66061352abe822
 #: ../../releases/v2017.1.2.rst:39
 msgid "Bugfixes"
-msgstr ""
+msgstr "Fehlerbehebungen"
 
 # 9449ee9ebf6e467f8c03a5fdac098fc6
 #: ../../releases/v2017.1.2.rst:41
@@ -204,4 +207,3 @@ msgid ""
 "The workaround added in Gluon v2017.1.1 has greatly reduced the frequency"
 " of segfaults, but did not make them disappear completely."
 msgstr ""
-
