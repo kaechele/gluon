@@ -3,24 +3,27 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-packagegluon-web-admin/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 38758684e6a641e9822d712295ef8a6c
 #: ../../package/gluon-web-admin.rst:2
 msgid "gluon-web-admin"
-msgstr ""
+msgstr "gluon-web-admin"
 
 # 7b7997c179dd4e1ab9293042a1ae0538
 #: ../../package/gluon-web-admin.rst:4
@@ -30,36 +33,42 @@ msgid ""
 "it should be possible to access the nodes via ssh with a password or not "
 "and what the minimum password length must be."
 msgstr ""
+"Dieses Paket erlaubt es Nutzern ein Passwort für den SSH-Zugriff im "
+"Konfiurationsmodus zu setzen. Es kann in der ``site.conf`` definiert werden "
+"ob ein SSH-Zugriff mittels Passwort möglich sein soll und welche "
+"Mindestlänge für ein Passwort gilt."
 
 # e5e11a3e70ca4e1abd8f838986e555a7
 #: ../../package/gluon-web-admin.rst:10
 msgid "site.conf"
-msgstr ""
+msgstr "site.conf"
 
 # 8668983af5d04d65b1da6c7312226ca4
 #: ../../package/gluon-web-admin.rst:15
 msgid "config_mode.remote_login.show_password_form \\: optional"
-msgstr ""
+msgstr "config_mode.remote_login.show_password_form \\: optional"
 
 # 8c7977fc3ece4a0e91e1e623a1736b19
 #: ../../package/gluon-web-admin.rst:13
 msgid "``true`` the password section in config mode is shown"
 msgstr ""
+"``true`` Die Passwortkonfiguration wird im Konfigurationsmodus angezeigt"
 
 # acca260dfd98425eb8d2a6356f342289
 #: ../../package/gluon-web-admin.rst:14
 msgid "``false`` the password section in config mode is hidden"
 msgstr ""
+"``false`` Die Passwortkonfiguration ist im Konfigurationsmodus ausgeblendet"
 
 # e1f0ce9319e74e8dbd7b04e45c921d9e
 #: ../../package/gluon-web-admin.rst:15
 msgid "defaults to ``false``"
-msgstr ""
+msgstr "ist standardmäßig ``false``"
 
 # c27818279a0b4503a1c651212ab333e7
 #: ../../package/gluon-web-admin.rst:20
 msgid "config_mode.remote_login.min_password_length \\: optional"
-msgstr ""
+msgstr "config_mode.remote_login.min_password_length \\: optional"
 
 # ad3affde2d864e28ab0e2fbf9898ae0e
 #: ../../package/gluon-web-admin.rst:18
@@ -67,14 +76,15 @@ msgid ""
 "sets the minimum allowed password length. Set this to ``1`` to disable "
 "the length check."
 msgstr ""
+"setzt die minimal erlaubte Passwortlänge. Wenn hier ``1`` gesetzt ist wird "
+"die Passwortlänge nicht geprüft."
 
 # 3e8671f24ba645f9aacd5ef72e9ae0aa
 #: ../../package/gluon-web-admin.rst:20
 msgid "defaults to ``12``"
-msgstr ""
+msgstr "ist standardmäßig ``12``"
 
 # 96a401338305498982464f49f47d2e97
 #: ../../package/gluon-web-admin.rst:22
 msgid "Example::"
-msgstr ""
-
+msgstr "Beispiel::"
