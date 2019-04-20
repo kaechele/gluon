@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-releasesv20162/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # e92fad392d024371a938752495490e6f
@@ -25,57 +28,57 @@ msgstr ""
 # 81ef85d28420424484879782e046d13d
 #: ../../releases/v2016.2.rst:5
 msgid "Added hardware support"
-msgstr ""
+msgstr "Neu hinzugefügte Hardwareunterstützung"
 
 # 8176dfd9ad444365bfe83d6b00247880
 #: ../../releases/v2016.2.rst:8
 msgid "ar71xx-generic"
-msgstr ""
+msgstr "ar71xx-generic"
 
 # a8e8eaaf98314f28bd5bc53e42d62471
 #: ../../releases/v2016.2.rst:10
 msgid "ALFA Network"
-msgstr ""
+msgstr "ALFA Network"
 
 # 4dabad3501d24f11bd0f3351b2a4c25b
 #: ../../releases/v2016.2.rst:12
 msgid "Tube2H"
-msgstr ""
+msgstr "Tube2H"
 
 # 544e6d9a84974149990f8e17fe6584eb
 #: ../../releases/v2016.2.rst:13
 msgid "N2"
-msgstr ""
+msgstr "N2"
 
 # 738d375713634f64b5e919d095fe0106
 #: ../../releases/v2016.2.rst:14
 msgid "N5"
-msgstr ""
+msgstr "N5"
 
 # 043f74844e7f4d8a958331ca2324809c
 #: ../../releases/v2016.2.rst:16
 msgid "Buffalo"
-msgstr ""
+msgstr "Buffalo"
 
 # 36667b775404477b9149c66755ac4d93
 #: ../../releases/v2016.2.rst:18
 msgid "WZR-HP-G300NH2"
-msgstr ""
+msgstr "WZR-HP-G300NH2"
 
 # 008323dc520e4d3c98720191ec112d4d
 #: ../../releases/v2016.2.rst:20
 msgid "GL Innovations"
-msgstr ""
+msgstr "GL Innovations"
 
 # cf37667cb80848c0aa6ed2579b235379
 #: ../../releases/v2016.2.rst:22
 msgid "GL-AR150"
-msgstr ""
+msgstr "GL-AR150"
 
 # 4923ef6444f94687b6ba700286a6395c
 #: ../../releases/v2016.2.rst:24
 msgid "OpenMesh"
-msgstr ""
+msgstr "OpenMesh"
 
 # 3887d37e5e2843e68cdcffc2be4a7664
 #: ../../releases/v2016.2.rst:26
@@ -95,7 +98,7 @@ msgstr ""
 # 1896a9d36a2341c2922490d8c939b734
 #: ../../releases/v2016.2.rst:30
 msgid "TP-Link"
-msgstr ""
+msgstr "TP-Link"
 
 # 38b45e003542457da6e62ba835d8fa46
 #: ../../releases/v2016.2.rst:32
@@ -120,17 +123,17 @@ msgstr ""
 # 8df8eb77d60d486f84445525a2b6e8e4
 #: ../../releases/v2016.2.rst:37
 msgid "Ubiquiti"
-msgstr ""
+msgstr "Ubiquiti"
 
 # 4a6a9f481f5c4e129a9f6b81be7926a5
 #: ../../releases/v2016.2.rst:39
 msgid "UniFi AP AC Lite [#ath10k]_"
-msgstr ""
+msgstr "UniFi AP AC Lite [#ath10k]_"
 
 # 6b9386fc8fd44f8184e0a20e4db16ace
 #: ../../releases/v2016.2.rst:40
 msgid "UniFi AP AC Pro [#ath10k]_"
-msgstr ""
+msgstr "UniFi AP AC Pro [#ath10k]_"
 
 # 3cd03c9130c240d8861018f124e3a7a8
 #: ../../releases/v2016.2.rst:43
@@ -143,27 +146,27 @@ msgstr ""
 # 322e89bd3cbc46cfadf9ff182f08910d
 #: ../../releases/v2016.2.rst:47
 msgid "brcm2708-bcm2708"
-msgstr ""
+msgstr "brcm2708-bcm2708"
 
 # 8133d19542e543ff8d42298a16e45a95
 #: ../../releases/v2016.2.rst:49
 msgid "RaspberryPi 1"
-msgstr ""
+msgstr "RaspberryPi 1"
 
 # acba6fba5aa64523b66cb172a39b7fde
 #: ../../releases/v2016.2.rst:52
 msgid "brcm2708-bcm2709"
-msgstr ""
+msgstr "brcm2708-bcm2709"
 
 # 735387803e024f25aece9f79ba63e776
 #: ../../releases/v2016.2.rst:54
 msgid "RaspberryPi 2"
-msgstr ""
+msgstr "RaspberryPi 2"
 
 # 2d6b0fd65f1a401faa27debbfbd38559
 #: ../../releases/v2016.2.rst:57
 msgid "New features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 # a37d522877814479b48638cb2122140d
 #: ../../releases/v2016.2.rst:59
@@ -273,7 +276,7 @@ msgstr ""
 # 3f41979b14b94d3c93813c2051832872
 #: ../../releases/v2016.2.rst:101
 msgid "Bugfixes"
-msgstr ""
+msgstr "Fehlerbehebungen"
 
 # 0cfabeab14b543009997b2df0aed4366
 #: ../../releases/v2016.2.rst:103
@@ -449,4 +452,3 @@ msgid ""
 "The current API is inconsistent and will be replaced eventually. The old "
 "API will still be supported for a while."
 msgstr ""
-
