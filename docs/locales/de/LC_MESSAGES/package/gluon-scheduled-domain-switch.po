@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-packagegluon-scheduled-domain-switch/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 8b630ff8357342a99e97d9276901ac20
@@ -42,7 +45,7 @@ msgstr ""
 # 754d46ed4d224501adc48232d17de805
 #: ../../package/gluon-scheduled-domain-switch.rst:14
 msgid "site.conf"
-msgstr ""
+msgstr "site.conf"
 
 # 7de93ef0dce5454f98596d37aebc6e38
 #: ../../package/gluon-scheduled-domain-switch.rst:15
@@ -106,5 +109,4 @@ msgstr ""
 # c2ff21dab11a4399b220bfd101724e55
 #: ../../package/gluon-scheduled-domain-switch.rst:28
 msgid "Example::"
-msgstr ""
-
+msgstr "Beispiel::"
