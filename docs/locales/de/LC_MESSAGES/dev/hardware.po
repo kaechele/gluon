@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-devhardware/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 58696727877a4a239160dd6257467b03
@@ -171,7 +174,7 @@ msgstr ""
 # 04ecdc1876864d70a9379ade60e3e6e3
 #: ../../dev/hardware.rst:87
 msgid "Packages"
-msgstr ""
+msgstr "Pakete"
 
 # 5d1b76a6db0046e9b1ac4ff4f514f606
 #: ../../dev/hardware.rst:89
@@ -193,7 +196,7 @@ msgstr ""
 # eda9480ccbd4426cbef5be42cdc19609
 #: ../../dev/hardware.rst:100
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguration"
 
 # 4309e3f8882c485dac31cd72a6ef0891
 #: ../../dev/hardware.rst:102
@@ -283,4 +286,3 @@ msgid ""
 "After this, is should be sufficient to call ``make "
 "GLUON_TARGET=<target>`` to build the images for the new target."
 msgstr ""
-
