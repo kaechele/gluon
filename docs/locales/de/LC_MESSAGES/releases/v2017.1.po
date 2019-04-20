@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-releasesv20171/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 317564b313f24f8b93acfde4b39cbe1b
@@ -84,18 +87,18 @@ msgstr ""
 # 7db053bc28ab4cda86b92bd19ada0053
 #: ../../releases/v2017.1.rst:38
 msgid "Added hardware support"
-msgstr ""
+msgstr "Neu hinzugefügte Hardwareunterstützung"
 
 # a81bbbb914914119920817d979fb7eb4
 #: ../../releases/v2017.1.rst:41
 msgid "ar71xx-generic"
-msgstr ""
+msgstr "ar71xx-generic"
 
 # 85b0e5b7c54340afa444d60fbcba4fcb
 # f1dd5be5b7c0454a811b200ec4fac272
 #: ../../releases/v2017.1.rst:43 ../../releases/v2017.1.rst:65
 msgid "TP-Link"
-msgstr ""
+msgstr "TP-Link"
 
 # 966731a173884c9a8b242dd27f25c108
 #: ../../releases/v2017.1.rst:45
@@ -115,7 +118,7 @@ msgstr ""
 # 0f4be15f29374347a8d4e5f381a2239e
 #: ../../releases/v2017.1.rst:49
 msgid "Ubiquiti"
-msgstr ""
+msgstr "Ubiquiti"
 
 # 30b9c93ec9224e539602dabee1dc4638
 #: ../../releases/v2017.1.rst:51
@@ -130,17 +133,17 @@ msgstr ""
 # 7e332790a8224d4a9ee690a6ca17e6af
 #: ../../releases/v2017.1.rst:53
 msgid "Rocket M2/M5 Ti"
-msgstr ""
+msgstr "Rocket M2/M5 Ti"
 
 # c224a3f1a8b14a188189fc8239567a8b
 #: ../../releases/v2017.1.rst:54
 msgid "UniFi AP LR"
-msgstr ""
+msgstr "UniFi AP LR"
 
 # ce835f83e4654631ae50cace9afdae8d
 #: ../../releases/v2017.1.rst:57
 msgid "ar71xx-tiny"
-msgstr ""
+msgstr "ar71xx-tiny"
 
 # 98254e5cdf2c45cf970978da0d777c42
 #: ../../releases/v2017.1.rst:59
@@ -170,7 +173,7 @@ msgstr ""
 # 224f9ed288754191b97621e061e6ff77
 #: ../../releases/v2017.1.rst:71
 msgid "x86-generic"
-msgstr ""
+msgstr "x86-generic"
 
 # ac9d7a7b236b48f08920636d99e96c5e
 #: ../../releases/v2017.1.rst:73
@@ -183,7 +186,7 @@ msgstr ""
 # 2814a2ebd81949d387a2a4e8ba53fcd9
 #: ../../releases/v2017.1.rst:78
 msgid "x86-geode"
-msgstr ""
+msgstr "x86-geode"
 
 # 734dbc036784441ba9136f933950ede2
 #: ../../releases/v2017.1.rst:80
@@ -195,7 +198,7 @@ msgstr ""
 # cadb7cd166df48a6a938e329f74ba754
 #: ../../releases/v2017.1.rst:83
 msgid "New features"
-msgstr ""
+msgstr "Neue Funktionen"
 
 # 8ea52735847d4b8b96074f8c4c8ab59d
 #: ../../releases/v2017.1.rst:85
@@ -257,7 +260,7 @@ msgstr ""
 # 8dbbbca1de2047e68caa8857eda9998d
 #: ../../releases/v2017.1.rst:109
 msgid "Bugfixes"
-msgstr ""
+msgstr "Fehlerbehebungen"
 
 # f860f785ea2246fe89696ba68bdeb028
 #: ../../releases/v2017.1.rst:111
@@ -325,7 +328,7 @@ msgstr ""
 # eb291a58a64743d794ca8b6c7594febc
 #: ../../releases/v2017.1.rst:138
 msgid "site.conf"
-msgstr ""
+msgstr "site.conf"
 
 # 313c862e61fa4790a7947ba6947b7d3e
 #: ../../releases/v2017.1.rst:140
@@ -499,4 +502,3 @@ msgid ""
 "The current API is inconsistent and will be replaced eventually. The old "
 "API will still be supported for a while."
 msgstr ""
-
