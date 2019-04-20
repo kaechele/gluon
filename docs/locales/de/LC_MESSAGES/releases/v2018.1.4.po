@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-releasesv201814/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # ad00d4943b424804b16a36ce7e6c4d4c
@@ -25,7 +28,7 @@ msgstr ""
 # a47c57ac2a404290950b07223ecf7710
 #: ../../releases/v2018.1.4.rst:5
 msgid "Bugfixes"
-msgstr ""
+msgstr "Fehlerbehebungen"
 
 # 0e49c05368be4fc1a03a8a35cccd0d67
 #: ../../releases/v2018.1.4.rst:7
@@ -142,4 +145,3 @@ msgid ""
 "There are still known bugs leading to unreasonably high load that we hope"
 " to solve in future releases."
 msgstr ""
-
