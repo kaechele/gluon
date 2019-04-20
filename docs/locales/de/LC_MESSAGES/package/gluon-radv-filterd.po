@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-packagegluon-radv-filterd/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # b2e0d9f7833f4c1aacbb6ed7bfd36ff4
@@ -106,7 +109,7 @@ msgstr ""
 # a01d2c9c5a97476885f0d800e5005d03
 #: ../../package/gluon-radv-filterd.rst:50
 msgid "site.conf"
-msgstr ""
+msgstr "site.conf"
 
 # 940be74e3ed04fb9925781f2faeb5e95
 #: ../../package/gluon-radv-filterd.rst:55
@@ -133,5 +136,4 @@ msgstr ""
 # f59037cdd7b1406ca4b59e5b1e1bbd25
 #: ../../package/gluon-radv-filterd.rst:57
 msgid "Example::"
-msgstr ""
-
+msgstr "Beispiel::"
