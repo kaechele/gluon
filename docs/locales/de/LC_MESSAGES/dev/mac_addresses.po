@@ -3,24 +3,27 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-devmac_addresses/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # 4fc16287cb51470c9f8708bd51181261
 #: ../../dev/mac_addresses.rst:2
 msgid "MAC addresses"
-msgstr ""
+msgstr "MAC-Adressen"
 
 # 8a6ac02cd37545a982dcca72057b94a3
 #: ../../dev/mac_addresses.rst:4
@@ -29,6 +32,10 @@ msgid ""
 "vendor (in batman-adv, each mesh interface needs an own MAC address that "
 "must be unique mesh-wide)."
 msgstr ""
+"Bei vielen Geräten stehen seitens des Herstellers nicht ausreichend viele "
+"eindeutige MAC-Adressen zur Verfügung. Bei batman-adv benötigt aber jedes "
+"Mesh-Interface eine eigene MAC-Adresse, die im gesamten Meshnetzwerk "
+"eindeutig sein muss."
 
 # 48554ff982424bbeb22f498971940876
 #: ../../dev/mac_addresses.rst:8
@@ -37,44 +44,46 @@ msgid ""
 "address as a 45 bit MAC address prefix. The resulting 8 addresses are "
 "used as follows:"
 msgstr ""
+"Gluon versucht dieses Problem zu lösen indem es einen Hash der primären MAC-"
+"Adresse als 45 bit MAC-Adressprefix nutzt. Die resultierenden 8 Adressen "
+"werden wie folgt genutzt:"
 
 # b369ef2da6ab4f08aba0c4684a07c768
 #: ../../dev/mac_addresses.rst:11
 msgid "0: client0; WAN"
-msgstr ""
+msgstr "0: client0; WAN"
 
 # 413bb026049643b39a1d7e6cdc4e8848
 #: ../../dev/mac_addresses.rst:12
 msgid "1: mesh0"
-msgstr ""
+msgstr "1: mesh0"
 
 # 2f15fb0ad929452592f7160c673698db
 #: ../../dev/mac_addresses.rst:13
 msgid "2: ibss0"
-msgstr ""
+msgstr "2: ibss0"
 
 # ad0067c833e64ba5b2a82c2e2b35f104
 #: ../../dev/mac_addresses.rst:14
 msgid "3: wan_radio0 (private WLAN); batman-adv primary address"
-msgstr ""
+msgstr "3: wan_radio0 (privates WLAN); batman-adv primäre Adresse"
 
 # 087bac3e4ee7422d8837f5f6b8818959
 #: ../../dev/mac_addresses.rst:15
 msgid "4: client1; LAN"
-msgstr ""
+msgstr "4: client1; LAN"
 
 # 41aa66e8624944fca286b2d935a4fde8
 #: ../../dev/mac_addresses.rst:16
 msgid "5: mesh1"
-msgstr ""
+msgstr "5: mesh1"
 
 # ff4d7120b42246a3802ac6f11fbfc097
 #: ../../dev/mac_addresses.rst:17
 msgid "6: ibss1"
-msgstr ""
+msgstr "6: ibss1"
 
 # bf9e269213594d56a246609e84c032a5
 #: ../../dev/mac_addresses.rst:18
 msgid "7: wan_radio1 (private WLAN); mesh VPN"
-msgstr ""
-
+msgstr "7: wan_radio1 (privates WLAN); Mesh-VPN"
