@@ -3,29 +3,32 @@
 # This file is distributed under the same license as the Gluon package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gluon 2018.2+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-20 14:06-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-04-21 01:29+0000\n"
+"Last-Translator: Felix Kaechele <felix@fetzig.org>\n"
+"Language-Team: German <https://translate.kaechele.ca/projects/gluon/"
+"documentation-userfaq/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6\n"
 "Generated-By: Babel 2.6.0\n"
 
 # be888f8cfe3b41a7a994a2ec622aaa90
 #: ../../user/faq.rst:2
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Häufig gestellte Fragen"
 
 # ac6f750260ea4180870fe0d49d335a61
 #: ../../user/faq.rst:7
 msgid "What hardware is supported?"
-msgstr ""
+msgstr "Welche Hardware wird unterstützt?"
 
 # eb3acaea104b45c383bcd173840f5e59
 #: ../../user/faq.rst:8
@@ -35,11 +38,15 @@ msgid ""
 "supported have a look at :doc:`../dev/hardware` for detailed hardware "
 "requirements."
 msgstr ""
+"Eine Tabelle mit Hardware, die von Gluon Unterstützt wird findet sich im `"
+"OpenWrt Wiki`_. Um herauszufinden ob für ein bestimmtes Gerät eine "
+"Unterstützung erfolgen kann empfiehlt sich ein Blick in :doc:`../dev/"
+"hardware` für detaillierte Angaben zu den Hardwareanforderungen."
 
 # fd70351c90664c5c8ad888630ff1edde
 #: ../../user/faq.rst:17
 msgid "Why does DNS not work on the nodes?"
-msgstr ""
+msgstr "Warum funktioniert DNS auf den Knoten nicht?"
 
 # 3245d2accf2b49fc81776ab796ce47c5
 #: ../../user/faq.rst:19
@@ -47,6 +54,9 @@ msgid ""
 "Gluon nodes will ignore the DNS server on the WAN port for everything "
 "except the mesh VPN, which can lead to confusion."
 msgstr ""
+"Gluon-Knoten ignorieren den DNS-Server auf dem WAN-Anschluss für alles außer "
+"dem Verbindungsaufbau zum Mesh-VPN. Dies kann zu Verwirrung bei Nutzern "
+"führen."
 
 # 5377865ebea14a5cb88d8dbf3c385ea0
 #: ../../user/faq.rst:22
@@ -59,11 +69,19 @@ msgid ""
 " a default route by setting the *default lifetime* to 0; in this case, "
 "the *radvd* is only used to announce the DNS server."
 msgstr ""
+"Alle normalen Dienste auf dem Knoten verwenden ausschließlich die DNS-"
+"Server, die über das Mesh-Interface bereitgestellt werden. Dieser DNS-Server "
+"muss mittels Router Advertisements (z.B. durch *radvd*) von einem der "
+"zentraler positionierten Server im Mesh annonciert werden. Wenn das Mesh "
+"keine globale IPv6-Konnektivität hat kann *radvd* durch das setzen der *"
+"default lifetime* auf 0 so konfiguriert werden, dass keine Default Route "
+"annonciert wird. In diesem Fall wird der *radvd* dann nur verwendet um den "
+"DNS-Server zu annoncieren."
 
 # f2475ba5d0f6439ea51c16dc9de1af36
 #: ../../user/faq.rst:32
 msgid "What is a good MTU on the mesh-vpn?"
-msgstr ""
+msgstr "Welche MTU empfiehlt sich für das mesh-vpn?"
 
 # 21ab3d007fc84a638d7d34b724f94bb8
 #: ../../user/faq.rst:34
@@ -73,11 +91,15 @@ msgid ""
 "and setting it too high may leave peers with a broken tunnel due to "
 "packet loss."
 msgstr ""
+"Die Auswahl einer MTU auf dem Transportinterface muss sorgsam erfolgen, da "
+"ein zu niedriger Wert unnötig starke Fragmentierung der Pakete hervorruft "
+"und ein zu hoher Wert zu Konnektivitätsproblemen aufgrund verworfener Pakete "
+"in manchen Konstellationen führen kann."
 
 # 5d7a879c9dc74b07bfea44e4836161a2
 #: ../../user/faq.rst:38
 msgid "Consider these key values:"
-msgstr ""
+msgstr "Folgende Elemente sollten bedacht werden:"
 
 # f703f9377aa04d98814620ee75d346d0
 #: ../../user/faq.rst:40
@@ -87,6 +109,10 @@ msgid ""
 "clamping`_ accordingly, - and announce your link MTU via Router "
 "Advertisements and DHCP"
 msgstr ""
+"Nutzlast: Eine minmale MTU von 1280 Bytes sollte gemäß RFC 2460 "
+"gewährleistet sein um den Transport von IPv6-Paketen zu ermöglichen. Hierzu "
+"sollte `MSS clamping`_ entsprechend konfiguriert sein und die Link-MTU per "
+"Router Advertisements und DHCP annonciert werden"
 
 # 0629da70f1464cdbb9e090a5a7c74d5d
 #: ../../user/faq.rst:47
@@ -97,6 +123,11 @@ msgid ""
 "- up to 28 Byte (14 Byte Ethernet + 14 Byte batadv) for batman-adv compat"
 " v14 (v2011.3.0 until and including v2013.4.0)"
 msgstr ""
+"Verkapselung: Der Overhead für die Verkapselung der Nutzlast durch das "
+"konfigurierte Meshverfahren muss in die Berechnung einbezogen werden. Für "
+"batman-adv compat v15 (v2014.0 und neuer) beträgt dieser bis zu 32 Byte (14 "
+"Byte Ethernet + 18 Byte batadv) und für batman-adv compat v14 (v2011.3.0 bis "
+"einschließlich v2013.4.0) bis zu 28 Byte (14 Byte Ethernet + 14 Byte batadv)"
 
 # 53030baba5a441be989d758f04eb7935
 #: ../../user/faq.rst:52
@@ -104,16 +135,20 @@ msgid ""
 "PMTU: What MTU does the path between your gateway and each of its peers "
 "support?"
 msgstr ""
+"PMTU: Was darf der MTU auf dem Pfad zwischen dem Gateway und jedem Knoten im "
+"Netzwerk maximal betragen?"
 
 # c37b1520d31444dbba409185abb4c295
 #: ../../user/faq.rst:54
 msgid "For reference, the complete MTU stack looks like this:"
 msgstr ""
+"Zur Veranschaulichung der MTU Berechnung kann dieses Diagramm herangezogen "
+"werden:"
 
 # 2421da137d34451086b3e078078e7a1b
 #: ../../user/faq.rst:59
 msgid "Minimum MTU"
-msgstr ""
+msgstr "Minimale MTU"
 
 # 185c0114a14e4a87a6d482e79eaa67b1
 #: ../../user/faq.rst:61
@@ -123,6 +158,10 @@ msgid ""
 "value, since going lower would cause unnecessary fragmentation for "
 "clients which respect the announced link MTU."
 msgstr ""
+"Die minimale MTU wird berechnet indem man den Overhead der Verkapselung mit "
+"der minimal notwendigen MTU addiert. Dies ist der niedrigste empfohlene "
+"Wert, da ein noch niedrigerer Wert unnötige Fragmentierung bei Clients "
+"erzeugt, die eine annoncierte MTU anwenden."
 
 # 624c23a757d8482887ef5d5eab036c78
 #: ../../user/faq.rst:66
@@ -131,11 +170,14 @@ msgid ""
 " up to 32 Bytes of encapsulation overhead on top of the minimal link MTU "
 "required for transporting IPv6.::"
 msgstr ""
+"Beispiel: Unser Netzwerk verwendet batman-adv v15. Daher benötigt es bis zu "
+"32 Bytes Overhead bei der Verkapselung zusätzlich zur minimalen MTU, die zum "
+"Transport von IPv6-Paketen benötigt wird.::"
 
 # 21b1703ef3c748f6bbee294da417e218
 #: ../../user/faq.rst:80
 msgid "Maximum MTU"
-msgstr ""
+msgstr "Maximale MTU"
 
 # 6f45bdf0a6704c2f9394f6889b30c92f
 #: ../../user/faq.rst:82
@@ -147,6 +189,13 @@ msgid ""
 "underlying reasons are mostly PPPoE, Tunneling and IPv6 transition "
 "technologies like DS-Lite."
 msgstr ""
+"Die Berechnung der maximalen MTU ist spannend, da sich der Datendurchsatz "
+"optimieren lässt wenn man mehr Nutzdaten in einem Paket transportieren kann. "
+"Sie ist aber auch nicht trivial, da der Overhead für das Tunnelprotokoll "
+"sowie die PMTU eines jeden Knotens, welche von Anbieter zu Anbieter "
+"unterschiedlich sein kann, betrachtet werden müssen. Einflussfaktoren sind "
+"hierbei häufig PPPoE, Tunnelprotokolle und IPv6-Übergangstechnologien wie DS-"
+"Lite."
 
 # 5db8ac0b544141da919b73faa29457f3
 #: ../../user/faq.rst:89
@@ -156,11 +205,16 @@ msgid ""
 "uses IPv4 (20 Byte), UDP (8 Byte), Fastd (24 byte) and you require TAP "
 "(14 Byte) for Layer 2 (Ethernet) Tunneling.::"
 msgstr ""
+"Beispiel: Der Knoten mit der kleinsten MTU im Netzwerk ist hinter einem DS-"
+"Lite Anschluss und kann IPv4-Pakete mit einer maximalen Länge von 1436 Byte "
+"transportieren. Das eingesetzte Tunnelprotokoll verwendet IPv4 (20 Byte), "
+"UDP (8 Byte), Fastd (24 Byte) und benötigt TAP (14 Byte) für Layer 2 "
+"(Ethernet) Tunneling.::"
 
 # cb4c9c2ed24545668b215b09dfc32965
 #: ../../user/faq.rst:104
 msgid "Conclusion"
-msgstr ""
+msgstr "Fazit"
 
 # db466ce504744f20a0c20b85880b8ec7
 #: ../../user/faq.rst:106
@@ -171,4 +225,9 @@ msgid ""
 "which works well with all combinations of IPv4, IPv6, batman-adv compat "
 "v14 and v15."
 msgstr ""
-
+"Die Bestimmung der maximalen MTU kann ein aufwändiger Prozess sein, "
+"insbesondere da sich die PMTU der teilnehmenden Knoten jederzeit und ohne "
+"Vorwarnung ändern kann. Die allgemeine Empfehlung für maximale "
+"Kompatibilität ist daher eine minimale MTU von 1312 Byte. Dieser Wert hat "
+"sich beim Einsatz verschiedenster Kombinationen von IPv4, IPv6, batman-adv "
+"compat v14 und v15 bewährt."
